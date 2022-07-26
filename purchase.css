@@ -1,0 +1,158 @@
+*{
+	padding: 5px;
+}
+body{
+	background-color: grey;
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.menu-bar{
+	background-color: rgb(0, 0, 100);
+}
+.menu-bar ul{
+	list-style: none;
+	display: inline-flex;
+	float: right;
+
+}
+.menu-bar ul li{
+	width: 125px;
+	padding: 15px;
+	margin: 15px;
+}
+.menu-bar ul li i{
+	font-size: 25px;
+}
+.menu-bar ul li a{
+	color: white;
+}
+.active, .menu-bar ul li:hover{
+	background: #2bab0d;
+	border-radius: 3px;
+}
+table{
+	width: 1350px;
+}
+img{
+	cursor: pointer;
+	position: relative;
+	box-shadow:4px 4px 6px rgb(0, 0, 100);
+	margin: auto;
+	padding: 5px;
+	grid-gap: 20px;	
+}
+.contact{
+	width: 400px;
+	margin: auto;
+	font-size: 25px;
+}
+.contact ul{
+	padding: 15px;
+	text-align: left;
+	list-style: none;
+}
+.contact ul li {
+	padding: 10px;
+}
+.contact-list a{
+	color: grey;
+}
+.contact li .fa{
+	font-size: 40px;
+	color: blue;
+}
+.contact ul li a:hover{
+	color: blue;
+	padding-left: 8px;
+}
+.about{
+	padding: 40px;
+	margin: auto;
+	font-size: 20px;
+}
+.about ul{
+	padding: 20px;
+}
+.about ul li{
+	text-align: justify;
+	font-family: cursive;
+}
+.sub-menu-bar{
+	display: none;
+	background-color: lightseagreen;
+	border-radius: 3px;
+}
+.menu-bar ul li:hover .sub-menu-bar{
+	display: block;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -15px;
+	color: white;
+}
+.menu-bar ul li:hover .sub-menu-bar ul{
+	display: block;
+	margin: 10px;
+}
+.sub-menu-bar ul li a:hover{
+	color: blue;
+	padding-left: 8px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 75%;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.container{
+	max-width: 1250px;
+	margin: Auto;
+	max-height: 450px;
+}
+.footer{
+	width: 100%;
+	position: absolute;
+	background-color: rgb(0, 0, 100);
+	font-size: 13px;
+	padding: 10px 0px 10px;
+	color: #ff0000;
+	font-family: cursive;
+}
+ul{
+	list-style: none;
+}
+.footer-col ul li a{
+	color: #ffffff;
+}
+.footer-col ul li a:hover{
+	color: wheat;
+	padding-left: 8px;
+}
+.social-media a{
+	height: 40px;
+	width: 48px;
+	display: inline-block;
+	background-color: transparent;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	transition: all 0.3s case;
+	margin: 10px 10px 10px 10px;
+	border-radius: 50%;
+	font-size: 35px;
+}
+.social-media a i:hover{
+	color: wheat;
+	padding-left: 8px;
+	background-color: blue;
+	border-radius: 50%;
+}
+.copy-right{
+	font-size: 13px;
+}
+.house{
+	font-size: 14px;
+}
